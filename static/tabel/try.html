@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The onclick Event</h1>
+
+<p>The onclick event is used to trigger a function when an element is clicked on.</p>
+
+
+<script> myfunction(){    
+    document.getElementById("displaytable").style.display = "none";   
+  }
+
+</script>
+  <input type="button" value="Button1" onclick='myfunction();'>
+  <div id="displaytable" style="visibility: hidden">
+    <table id="displaytable" style="display: none; width: 100%" cellpadding="1" cellspacing="0" border="3">
+      <tr align="center">
+        <td class="lbl">column1</td>
+        <td class="lbl">column2</td>
+        <td class="lbl">column3</td>
+      </tr>
+      <tr>
+        <td align="center">1</td>
+        <td align="center">2</td>
+        <td align="center">33</td>
+      </tr>
+      <tr>
+        <td align="center">4</td>
+        <td align="center">5</td>
+        <td align="center">6</td>
+      </tr>
+    </table> 
+  </div>
+  
